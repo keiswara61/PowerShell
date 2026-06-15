@@ -10,4 +10,4 @@
 # Y / 2 - 256 = 60
 # Y / 2 + 256 = 572
 
-magick -size 808x632 xc:snow -fill snow -stroke firebrick4 -strokewidth 16 -draw "polyline 148,188 276,188 404,444 polyline 660,444 532,444 404,188" Draw_4.png
+magick -size 808x632 xc:snow -fill none -stroke firebrick4 -strokewidth 16 -draw "polyline 148,188 276,188 404,444 polyline 660,444 532,444 404,188" Draw_4.png
